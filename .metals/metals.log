@@ -1,0 +1,85 @@
+2023.01.31 11:23:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\lotad\playground\scala-pg\gettingstarted\.metals\lsp.trace.json or c:\Users\lotad\playground\scala-pg\gettingstarted\null\scalameta\metals\cache\lsp.trace.json
+2023.01.31 11:23:17 INFO  logging to file C:\Users\lotad\playground\scala-pg\gettingstarted\.metals\metals.log
+2023.01.31 11:23:17 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\lotad\playground\scala-pg\gettingstarted' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/lotad/AppData/Local/Programs/Microsoft%20VS%20Code/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.31 11:23:20 INFO  time: initialize in 3.11s
+2023.01.31 11:23:21 WARN  Build server is not auto-connectable.
+2023.01.31 11:23:21 WARN  no build target for: C:\Users\lotad\playground\scala-pg\gettingstarted\src\main\scala\Main.scala
+2023.01.31 11:23:31 INFO  running 'C:\openjdk-1.8.0.222-2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\lotad\AppData\Local\Temp\metals2680791852994397543\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.01.31 11:23:38 INFO  no build target found for C:\Users\lotad\playground\scala-pg\gettingstarted\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.31 11:23:39 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_222-2-ojdkbuild)
+2023.01.31 11:23:40 INFO  time: code lens generation in 19s
+2023.01.31 11:23:40 INFO  [info] loading settings for project gettingstarted-build-build from metals.sbt ...
+2023.01.31 11:23:40 INFO  [info] loading project definition from C:\Users\lotad\playground\scala-pg\gettingstarted\project\project
+2023.01.31 11:23:45 INFO  [info] loading settings for project gettingstarted-build from metals.sbt ...
+2023.01.31 11:23:45 INFO  [info] loading project definition from C:\Users\lotad\playground\scala-pg\gettingstarted\project
+2023.01.31 11:23:54 INFO  [success] Generated .bloop\gettingstarted-build.json
+2023.01.31 11:23:54 INFO  [success] Total time: 9 s, completed 2023/01/31 11:23:54
+2023.01.31 11:23:55 INFO  [info] loading settings for project gettingstarted from build.sbt ...
+2023.01.31 11:23:55 INFO  [info] set current project to hello-world (in build file:/C:/Users/lotad/playground/scala-pg/gettingstarted/)
+2023.01.31 11:24:06 INFO  [success] Generated .bloop\gettingstarted-test.json
+2023.01.31 11:24:06 INFO  [success] Generated .bloop\gettingstarted.json
+2023.01.31 11:24:06 INFO  [success] Total time: 10 s, completed 2023/01/31 11:24:06
+2023.01.31 11:24:06 INFO  time: ran 'sbt bloopInstall' in 34s
+2023.01.31 11:24:06 INFO  Attempting to connect to the build server...
+2023.01.31 11:24:06 INFO  Setting up current java home C:\openjdk-1.8.0.222-2 in C:\Users\lotad\.bloop\bloop.json
+1 31, 2023 11:24:23 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 20
+1 31, 2023 11:24:28 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 41
+2023.01.31 11:24:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lotad\playground\scala-pg\gettingstarted\.metals\bsp.trace.json or c:\Users\lotad\playground\scala-pg\gettingstarted\null\scalameta\metals\cache\bsp.trace.json
+2023.01.31 11:24:32 INFO  Attempting to connect to the build server...
+2023.01.31 11:24:32 INFO  Bloop uses C:\openjdk-1.8.0.222-2 defined at C:\Users\lotad\.bloop\bloop.json
+2023.01.31 11:24:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\lotad\playground\scala-pg\gettingstarted\project\.metals\bsp.trace.json or c:\Users\lotad\playground\scala-pg\gettingstarted\null\scalameta\metals\cache\bsp.trace.json
+2023.01.31 11:24:34 INFO  time: Connected to build server in 28s
+2023.01.31 11:24:34 INFO  Connected to Build server: Bloop v1.5.6
+2023.01.31 11:24:34 INFO  time: Imported build in 0.23s
+2023.01.31 11:24:35 INFO  no build target found for C:\Users\lotad\playground\scala-pg\gettingstarted\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 90
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 91
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 94
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 95
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 93
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 97
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 98
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 101
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 102
+1 31, 2023 11:24:39 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 100
+2023.01.31 11:24:42 INFO  time: indexed workspace in 7.56s
+2023.01.31 11:24:43 INFO  compiling gettingstarted (1 scala source)
+2023.01.31 11:24:59 INFO  time: compiled gettingstarted in 16s
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 227)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 220)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 221)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 223)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 224)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[String]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 225)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[String]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 225)
+something's wrong: no file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala in Array[String]RangePosition(file:///C:/Users/lotad/playground/scala-pg/gettingstarted/src/main/scala/Main.scala, 212, 212, 225)
+1 31, 2023 11:26:00 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 454
+2023.01.31 11:26:31 INFO  compiling gettingstarted (1 scala source)
+2023.01.31 11:26:32 INFO  time: compiled gettingstarted in 1.01s
+1 31, 2023 11:38:32 åﬂëO org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+åxçê: Unmatched cancel notification for request id 690
+2023.01.31 11:40:53 INFO  compiling gettingstarted (1 scala source)
+2023.01.31 11:40:53 INFO  time: compiled gettingstarted in 0.84s
+2023.01.31 11:42:36 INFO  compiling gettingstarted (1 scala source)
+2023.01.31 11:42:36 INFO  time: compiled gettingstarted in 0.77s
+2023.01.31 11:43:10 INFO  compiling gettingstarted (1 scala source)
+2023.01.31 11:43:10 INFO  time: compiled gettingstarted in 0.69s

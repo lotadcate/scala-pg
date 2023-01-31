@@ -1,0 +1,4 @@
+[debug] [gettingstarted-test] Classpath dependencies List()
+[debug] [gettingstarted-test] Dependencies from configurations List(gettingstarted)
+[debug] Bloop wrote the configuration of project 'gettingstarted-test' to 'C:\Users\lotad\playground\scala-pg\gettingstarted\.bloop\gettingstarted-test.json'
+[success] Generated .bloop\gettingstarted-test.json
